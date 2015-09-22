@@ -18,6 +18,7 @@ git init
 git status
 git add <filename>
 git commit -m "message"
+git commit -a -m "message"
 git log --oneline
 git checkout <log abbr>
 git branch 
@@ -34,6 +35,9 @@ git commit -m "Add .gitignore file"
 # ---------------------
 git remote add origin https://github.com/lixzhan/myfirstrep.git
 git push -u origin master
+
+git init --bare <repository-name>
+git fetch origin
 
 # =====================
 # about VIM editor
