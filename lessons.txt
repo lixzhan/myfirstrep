@@ -35,6 +35,7 @@ git commit -m "Add .gitignore file"
 # ---------------------
 git remote add origin https://github.com/lixzhan/myfirstrep.git
 git push -u origin master
+git push 
 
 git init --bare <repository-name>
 git fetch origin
