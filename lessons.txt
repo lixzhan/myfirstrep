@@ -33,12 +33,15 @@ git commit -m "Add .gitignore file"
 # ---------------------
 # use central repository
 # ---------------------
+# start from local - initiate
 git remote add origin https://github.com/lixzhan/myfirstrep.git
 git push -u origin master
+
+# start from local - push
 git push 
 
-git init --bare <repository-name>
-git fetch origin
+# start from remote - make a copy to the test folder
+git clone https://github.com/lixzhan/myfirstrep.git test
 
 # =====================
 # about VIM editor
