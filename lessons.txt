@@ -22,9 +22,17 @@ git log --oneline
 git checkout <log abbr>
 git branch 
 
+# ---------------------
+# ignore certain files
+# ---------------------
 touch .gitignore   (in Git Bash)
 git add .gitignore
 git commit -m "Add .gitignore file"
+
+# ---------------------
+# use central repository
+# ---------------------
+git remote add origin https://github.com/lixzhan/myfirstrep.git
 
 # =====================
 # about VIM editor
