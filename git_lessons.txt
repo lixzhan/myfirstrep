@@ -13,6 +13,8 @@ git config --list
 git init
 git status
 git add <filename>
+git commit -m "message"
+git log --oneline
 
 # =====================
 # about VIM editor
