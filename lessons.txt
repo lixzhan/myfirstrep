@@ -33,6 +33,7 @@ git commit -m "Add .gitignore file"
 # use central repository
 # ---------------------
 git remote add origin https://github.com/lixzhan/myfirstrep.git
+git push -u origin master
 
 # =====================
 # about VIM editor
