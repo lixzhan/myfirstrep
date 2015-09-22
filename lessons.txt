@@ -1,15 +1,19 @@
 This file records the core commands and lessons related to Git
 
 # =====================
-# Identity
+http://rypress.com/tutorials/git/branches-1
 # =====================
+
+# ---------------------
+# Identity
+# ---------------------
 git config --global user.name "Lixun Zhang"
 git config --global user.email lixzhan@microsoft.com
 git config --list
 
-# =====================
+# ---------------------
 # basics 
-# =====================
+# ---------------------
 git init
 git status
 git add <filename>
