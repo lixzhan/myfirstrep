@@ -1,0 +1,15 @@
+This file records the core commands and lessons related to Git
+
+# =====================
+# Identity
+# =====================
+git config --global user.name "Lixun Zhang"
+git config --global user.email lixzhan@microsoft.com
+git config --list
+
+# =====================
+# basics 
+# =====================
+git init
+git status
+git add <filename>
