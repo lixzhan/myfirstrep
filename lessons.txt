@@ -16,6 +16,7 @@ git add <filename>
 git commit -m "message"
 git log --oneline
 git checkout <log abbr>
+git branch 
 
 # =====================
 # about VIM editor
